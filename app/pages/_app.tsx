@@ -7,7 +7,7 @@ import { GLOBAL_OG_BANNER, PROD_LINK } from '../constants';
 import { AppProvider } from '../contexts/app';
 import { ThemedGlobalStyle } from '../theme';
 
-const DEFAULT_TITLE = `TODO By POB - TODO`;
+const DEFAULT_TITLE = `721z.dev`;
 const DEFAULT_DESCRIPTION = ``;
 
 export default class PobApp extends App {
