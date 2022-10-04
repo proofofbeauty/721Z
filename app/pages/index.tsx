@@ -56,13 +56,17 @@ const IndexPage: NextPage = () => {
               </UL>
               <br />
               <span style={{ color: theme.blue }}>RENDERERS</span> allow
-              real-time compute of token attributes & visual data. Opening up the door for rich, on-chain user interaction.
+              real-time compute of token attributes & visual data. Opening up
+              the door for rich, on-chain user interaction.
               <UL>
                 <li>
-                  dynamic metadata construction is entirely optional. (You can still use IPFS)
+                  dynamic metadata construction is entirely optional. (You can
+                  still use IPFS)
                 </li>
                 <li>
-                  utilize deployed <span style={{ color: theme.blue }}>RENDERERS</span> by the community 
+                  utilize deployed{' '}
+                  <span style={{ color: theme.blue }}>RENDERERS</span> by the
+                  community
                 </li>
                 <li>entirely flexible & open to developer implementation</li>
               </UL>
