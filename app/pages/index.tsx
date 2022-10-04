@@ -3,7 +3,14 @@ import React from 'react';
 import { PaddedBox, PageDiv } from '../components/divs';
 import { FlexCenter } from '../components/flex';
 import { Header } from '../components/navs/header';
-import { LogoText, Text, TextAnchor, Title, UL } from '../components/texts';
+import {
+  Code,
+  LogoText,
+  Text,
+  TextAnchor,
+  Title,
+  UL,
+} from '../components/texts';
 import { theme } from '../theme';
 
 const IndexPage: NextPage = () => {
@@ -32,7 +39,8 @@ const IndexPage: NextPage = () => {
               The "<span style={{ color: theme.blue }}>Z</span>" in 721
               <span style={{ color: theme.primaryText }}>Z</span> represents an
               umbrella philosophy designed for maximum developer flexibility &
-              innovation. We combine 2 simple ideas:
+              innovation. We combine 2 simple ideas to create the "last" NFT
+              standard:
               <UL>
                 <li>
                   the latest usage of IERC721 (
@@ -46,6 +54,19 @@ const IndexPage: NextPage = () => {
                   contracts that construct & return your token's metadata in
                   real-time.
                 </li>
+              </UL>
+            </Text>
+          </PaddedBox>
+          <br />
+          <br />
+          <PaddedBox style={{ width: '100%' }}>
+            <Text>
+              NFTs can be so much more than just <Code>mint</Code> and{' '}
+              <Code>transfer</Code>. By utilizing additional contracts for the
+              construction of metadata, we open the door to:
+              <UL>
+                <li>real-time compute of token attributes & dynamic visuals</li>
+                <li>rich on-chain user interaction</li>
               </UL>
             </Text>
           </PaddedBox>
