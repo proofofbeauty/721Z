@@ -1,0 +1,13 @@
+{
+  "name": "@pob-monorepo/types",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo \"Nothing to build\"",
+    "dev:build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
