@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import { theme } from '../../theme';
 
-export const Label = styled.p`
+export const Label = styled.div`
   padding: 0;
   margin: 0;
   font-size: 12px;
   opacity: 0.2;
 `;
 
-export const Text = styled.p`
+export const Text = styled.div`
   padding: 0;
   margin: 0;
   font-size: 14px;
