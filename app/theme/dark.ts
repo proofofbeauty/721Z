@@ -17,7 +17,7 @@ export const GREEN = '#99ff66';
 export const BLUE = '#5de3f5';
 
 export const darkTheme: ThemeInterface = {
-  body: BLACK,
+  body: GREY_6,
   primaryText: WHITE,
   secondaryText: GREY_2,
   tertiaryText: GREY_3,

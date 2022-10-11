@@ -24,12 +24,15 @@ const IndexPage: NextPage = () => {
               ERC721<span style={{ color: theme.blue }}>Z</span>
             </LogoText>{' '}
             <span style={{ color: theme.secondaryText }}>
-              is a meta-standard of ideas, architectures, & deployed contracts
-              built for powerful{' '}
+              {/* is a meta-standard of ideas, architectures, & deployed contracts
+              built for{' '}
               <span style={{ color: theme.primaryText }}>
                 on-chain experiences
               </span>
-              .
+              . */}
+              is a growing set of implementations & public protocols for{' '}
+              <span style={{ color: theme.primaryText }}>metadata</span>{' '}
+              construction & retrieval
             </span>
           </Title>
           <br />
@@ -47,26 +50,35 @@ const IndexPage: NextPage = () => {
                   <TextAnchor href="https://www.erc721a.org/" target="_blank">
                     ERC721A
                   </TextAnchor>
-                  )
+                  ): best implementation of the minting experience
                 </li>
                 <li>
-                  <span style={{ color: theme.blue }}>RENDERERS</span>:
-                  contracts that construct & return your token's metadata in
-                  real-time.
+                  <span style={{ color: theme.blue }}>RENDERERS</span>: best set
+                  of ideas for implementing the metadata experience. contracts
+                  that construct & return metadata in real-time.
                 </li>
               </UL>
             </Text>
           </PaddedBox>
           <br />
           <br />
+          <img width="100%" src="/chart-1.png" />
+          <br />
+          <br />
           <PaddedBox style={{ width: '100%' }}>
             <Text>
               NFTs can be so much more than just <Code>mint</Code> and{' '}
-              <Code>transfer</Code>. By utilizing additional contracts for the
-              construction of metadata, we open the door to:
+              <Code>transfer</Code>. By constructing your <Code>tokenURI</Code>{' '}
+              with the{' '}
+              <LogoText>
+                ERC721<span style={{ color: theme.blue }}>Z</span>
+              </LogoText>{' '}
+              architecture, we get some cool features:
               <UL>
                 <li>real-time compute of token attributes & dynamic visuals</li>
-                <li>rich on-chain user interaction</li>
+                <li>on-chain user interaction / experiences</li>
+                <li>live feature releases</li>
+                <li>maintainable IPFS / off-chain resources</li>
               </UL>
             </Text>
           </PaddedBox>
