@@ -60,11 +60,7 @@ const IndexPage: NextPage = () => {
               </UL>
             </Text>
           </PaddedBox>
-          <br />
-          <br />
           <img width="100%" src="/chart-1.png" />
-          <br />
-          <br />
           <PaddedBox style={{ width: '100%' }}>
             <Text>
               NFTs can be so much more than just <Code>mint</Code> and{' '}
